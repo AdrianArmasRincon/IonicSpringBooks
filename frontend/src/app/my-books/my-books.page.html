@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>my-books</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-input label="Title Update" label-placement="floating" name="titleUpdate" [(ngModel)]="titleUpdate"
+        fill="solid" placeholder="Enter book title"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Author Update" label-placement="floating" name="authorUpdate" [(ngModel)]="authorUpdate"
+        fill="solid" placeholder="Enter author name"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item *ngFor="let b of booksList">
+      <ion-label>
+        <h1>{{b.title}}</h1>
+        <p>{{b.author}}</p>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="6" class="ion-text-center">
+              <ion-button color="danger" (click)="deleteBook(b.id)">delete</ion-button>
+            </ion-col>
+            <ion-col size="6" class="ion-text-center">
+              <ion-button (click)="updateBook(b.id, b.title, b.author)">Update</ion-button>
+            </ion-col>
+            <ion-col>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

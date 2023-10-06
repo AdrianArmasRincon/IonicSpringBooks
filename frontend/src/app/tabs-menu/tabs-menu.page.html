@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>tabs-menu</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">tabs-menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home">
+        <ion-icon name="home"></ion-icon>
+        Go Home
+      </ion-tab-button>
+      <ion-tab-button tab="my-books">
+        <ion-icon name="library"></ion-icon>
+        Book's List
+      </ion-tab-button>
+      <ion-tab-button tab="add-books">
+        <ion-icon name="add-circle"></ion-icon>
+        Add
+      </ion-tab-button>
+      <ion-tab-button tab="my-books">
+        <ion-icon name="ban"></ion-icon>
+        Delete
+      </ion-tab-button>
+      <ion-tab-button tab="my-books">
+        <ion-icon name="repeat"></ion-icon>
+        Update
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+</ion-content>

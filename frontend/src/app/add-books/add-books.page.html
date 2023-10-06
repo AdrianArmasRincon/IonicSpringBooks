@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title size="large">add-books</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Input -->
+  <ion-list>
+    <ion-item>
+      <ion-label position="floating">Book name <ion-text color="danger">(Required)</ion-text></ion-label>
+      <ion-input placeholder="Enter book name" [(ngModel)]="bookTitle" name="bookTitle"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-label position="floating">Author name <ion-text color="danger">(Required)</ion-text></ion-label>
+      <ion-input placeholder="Enter author name" [(ngModel)]="authorName" name="authorName"></ion-input>
+    </ion-item>
+  </ion-list>
+  <!-- Button -->
+  <ion-grid>
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col>
+        <ion-button expand="block" (click)="addBook()">Add book</ion-button>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
