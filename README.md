@@ -16,10 +16,10 @@
       </ul>
     </li>
     <li>
-      <a href="#contact">Contact</a>
+      <a href="#PostMan">PostMan</a>
     </li>
     <li>
-      <a href="#PostMan">PostMan</a>
+      <a href="#contact">Contact</a>
     </li>
   </ol>
 </details>
@@ -63,7 +63,9 @@
 
 This is how to start the project:
 
+<!-- Prerequisites -->
 ### Prerequisites
+
 * Data base
   ```sh
     CREATE DATABASE IF NOT EXISTS db_books;
@@ -77,14 +79,18 @@ This is how to start the project:
     );
    ```
 This is what you need to install:
+
+
 * npm
   ```sh
   npm install -g @angular/cli
   ```
+
 * Node.js
   [https://nodejs.org/es](https://nodejs.org/es)
 
 
+<!-- Installation -->
 ### Installation
 
 Project installation
@@ -110,6 +116,7 @@ Project installation
   ```sh
   ionic generate page page-name
   ``` 
+
 
 <!-- PostMan -->
 ### PostMan
