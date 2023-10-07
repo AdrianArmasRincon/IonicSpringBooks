@@ -64,7 +64,7 @@
 This is how to start the project:
 
 ### Prerequisites
-* base de datos
+* Data base
   ```sh
     CREATE DATABASE IF NOT EXISTS db_books;
 
