@@ -100,10 +100,22 @@ This is what you need to install:
   ```sh
   npm install -g @angular/cli
   ```
+* Ionic start
+  ```sh
+  $ ionic start frontend blank --capacitor --type=angular
+  ```
+* Start serve
+  ```sh
+  $ ionic serve
+  ```
+* Create new page
+  ```sh
+  $ ionic generate page page-name
+  ``` 
 
 ### Installation
 
-Angular node.js installation
+Project installation
 
 
 1. Clone the repo
