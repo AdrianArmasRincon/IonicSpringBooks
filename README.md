@@ -15,13 +15,17 @@
         <li><a href="#installation">Installation</a></li
       </ul>
     </li>
-    <li> <li><a href="#installation">Installation</a></li></li>
-    <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+    <li>
+      <a href="#PostMan">PostMan</a>
+    </li>
   </ol>
 </details>
 
 
-
+### About-the-project
 <!-- ABOUT THE PROJECT -->
 ### Built With
 <p>
@@ -60,7 +64,18 @@
 This is how to start the project:
 
 ### Prerequisites
+* base de datos
+  ```sh
+    CREATE DATABASE IF NOT EXISTS db_books;
 
+    USE db_books;
+    
+    CREATE TABLE IF NOT EXISTS books (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        title VARCHAR(255) NOT NULL,
+        author VARCHAR(255) NOT NULL
+    );
+   ```
 This is what you need to install:
 * npm
   ```sh
@@ -75,29 +90,29 @@ This is what you need to install:
 Project installation
 
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/AdrianArmasRincon_/IonicSpringBooks.git
-   ```
+1. Clone the repository
+ ```sh
+ git clone https://github.com/AdrianArmasRincon_/IonicSpringBooks.git
+ ```
 2. Install NPM packages
-   ```sh
-   npm install -g @angular/cli
-   ```
+  ```sh
+  npm install -g @angular/cli
+  ```
 3. Ionic start
   ```sh
-  $ ionic start frontend blank --capacitor --type=angular
+  ionic start frontend blank --capacitor --type=angular
   ```
 4. Start serve
   ```sh
-  $ ionic serve
+  ionic serve
   ```
 5. Create new page
   ```sh
-  $ ionic generate page page-name
+  ionic generate page page-name
   ``` 
 
 <!-- PostMan -->
-## PostMan
+### PostMan
 
 Project Url - [https://documenter.getpostman.com/view/29846283/2s9YJgSKz7](https://documenter.getpostman.com/view/29846283/2s9YJgSKz7)
 
@@ -107,13 +122,6 @@ Project Url - [https://documenter.getpostman.com/view/29846283/2s9YJgSKz7](https
 Adrian Armas -  adrianyaredarmasdelanuez@alumno.ieselrincon.es
 
 Project Link: [https://github.com/AdrianArmasRincon/IonicSpringBooks.git](https://github.com/AdrianArmasRincon/IonicSpringBooks.git)
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
 
 
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
