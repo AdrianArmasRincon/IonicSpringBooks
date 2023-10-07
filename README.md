@@ -19,23 +19,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">README-Template</h3>
-
-  <p align="center">
-    IonicSpringBooks README!
-  </p>
-</div>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -100,18 +83,9 @@ This is what you need to install:
   ```sh
   npm install -g @angular/cli
   ```
-* Ionic start
-  ```sh
-  $ ionic start frontend blank --capacitor --type=angular
-  ```
-* Start serve
-  ```sh
-  $ ionic serve
-  ```
-* Create new page
-  ```sh
-  $ ionic generate page page-name
-  ``` 
+* Node.js
+  [https://nodejs.org/es](https://nodejs.org/es)
+
 
 ### Installation
 
@@ -124,8 +98,20 @@ Project installation
    ```
 2. Install NPM packages
    ```sh
-   npm install
+   npm install -g @angular/cli
    ```
+3. Ionic start
+  ```sh
+  $ ionic start frontend blank --capacitor --type=angular
+  ```
+4. Start serve
+  ```sh
+  $ ionic serve
+  ```
+5. Create new page
+  ```sh
+  $ ionic generate page page-name
+  ``` 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
