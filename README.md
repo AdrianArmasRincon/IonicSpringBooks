@@ -12,9 +12,10 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Installation</a></li
       </ul>
     </li>
+    <li> <li><a href="#installation">Installation</a></li></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -95,6 +96,10 @@ Project installation
   $ ionic generate page page-name
   ``` 
 
+<!-- PostMan -->
+## PostMan
+
+Project Url - [https://documenter.getpostman.com/view/29846283/2s9YJgSKz7](https://documenter.getpostman.com/view/29846283/2s9YJgSKz7)
 
 <!-- CONTACT -->
 ## Contact
